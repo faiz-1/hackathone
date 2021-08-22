@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+  <!-------- NAVBAR -------->
+
+    <nav class="navbar navbar-expand-lg navbar-light  mynav fixed-top">
+        <div class="container">
+        <a class="navbar-brand pull-right float-right" href="#"><img src="./images/food-panda-logo-vector.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">ABOUT<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CAREERS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Foods</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Register yourself 
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="loginform.html">Log in</a>
+                <a class="dropdown-item" href="./index.html">signup</a>
+                
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+  <!-------- NAVBAR -------->
+
+  <!------- SLIDER ------->
+  <!-- Slider -->
+<section class="slider-section">
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+
+		<!-- Carousel Content -->
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active" style="background-image: url(./images/background-image.jpg);">
+				<div class="carousel-caption d-none d-md-block">
+				  <h1>BRINGING GOOD FOOD INTO YOUR <span class="block"></span> EVERYDAY</h1>
+				</div>
+			</div> <!-- End of Carousel Item -->
+
+			<div class="carousel-item" style="background-image: url(./images/back-ground-image-2.jpg);">
+				<div class="carousel-caption d-none d-md-block">
+          <h1>BRINGING GOOD FOOD INTO YOUR <span class="block"></span> EVERYDAY</h1>
+
+				</div>
+			</div> 
+			</div> <!-- End of Carousel Item -->
+		         <!-- End of Carousel Content -->
+	        	 <!-- Previous & Next -->
+	</div>     <!-- End of Carousel -->
+</section> <!-- End of Slider -->
+  <!------- SLIDER ------->
+
+<div class="aboutus">
+
+<h3>ABOUT US</h3>
+<p>
+  For us,it's not just about bringing you good food from your favourite 
+  restaurants. It's about <span class="block"></span> making connection,which is why we sit down with the 
+  chefs, dreming up menus<span class="block"></span> that will arrive fresh and full of flavour. Tru us!
+</p>
+<a href="">LEARN MORE</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAEus2PPmrFqIAdCp4psY23W3CyP53kaNI",
+    authDomain: "hackathon-5547e.firebaseapp.com",
+    projectId: "hackathon-5547e",
+    storageBucket: "hackathon-5547e.appspot.com",
+    messagingSenderId: "402869411238",
+    appId: "1:402869411238:web:4b1f84c1f2f542f5dd8367"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    
+    <script src="./js/app.js"></script>
+    <script src="./js/user.js"></script>
+    
+</body>
+</html>
